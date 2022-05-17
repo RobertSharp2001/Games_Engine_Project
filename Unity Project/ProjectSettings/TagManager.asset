@@ -8,6 +8,8 @@ TagManager:
   - KillPlane
   - Platform
   - Projectile
+  - Button
+  - Object
   layers:
   - Default
   - TransparentFX

@@ -10,15 +10,17 @@ public enum BulletType{
 public class projectile : MonoBehaviour{
     // Start is called before the first frame update
     Rigidbody rb;
-    public Transform player;
-    public Vector3 moveTo;
+    //public Transform player;
+    //public Vector3 moveTo;
     public BulletType type;
     public float aliveFor;
     public int damage;
+    private Vector3 aim;
 
     void Awake(){
         rb = GetComponent<Rigidbody>();
-        moveTo = GameObject.FindGameObjectWithTag("Player").transform.position;
+        //moveTo = GameObject.FindGameObjectWithTag("Player").transform.position;
+
         Invoke(nameof(Dest),aliveFor);
     }
     public void Dest(){
@@ -44,6 +46,10 @@ public class projectile : MonoBehaviour{
             //Debug.Log("Enemy shot Player");
             EnemyAgent enem = collision.gameObject.GetComponent<EnemyAgent>();
             enem.TakeDamage(damage);
+            Dest();
+        }
+
+        if (collision.gameObject.tag == "Button" || collision.gameObject.tag == "Platform" || collision.gameObject.tag == "WallrunSurface" || collision.gameObject.tag == "KillPlane" || collision.gameObject.tag == "Object") {
             Dest();
         }
 

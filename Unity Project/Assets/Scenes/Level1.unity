@@ -21565,7 +21565,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh18988
+  m_Name: pb_Mesh20094
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21961,7 +21961,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh18900
+  m_Name: pb_Mesh20008
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22397,7 +22397,7 @@ GameObject:
   - component: {fileID: 1353700363}
   m_Layer: 0
   m_Name: Door
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22494,7 +22494,7 @@ GameObject:
   - component: {fileID: 1355422946}
   m_Layer: 0
   m_Name: DoorFrame (2)
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24485,7 +24485,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2716
+  m_Name: pb_Mesh-2952
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25251,6 +25251,14 @@ PrefabInstance:
     - target: {fileID: 9077044773498278772, guid: c930e8916d233ad4ea697f3005caa41b, type: 3}
       propertyPath: m_Name
       value: DoorFrame (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077044773498278772, guid: c930e8916d233ad4ea697f3005caa41b, type: 3}
+      propertyPath: m_TagString
+      value: Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077044773862764253, guid: c930e8916d233ad4ea697f3005caa41b, type: 3}
+      propertyPath: m_TagString
+      value: Object
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c930e8916d233ad4ea697f3005caa41b, type: 3}

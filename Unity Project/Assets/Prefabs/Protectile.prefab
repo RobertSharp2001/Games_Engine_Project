@@ -96,7 +96,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1933542933324776090
 Rigidbody:
@@ -126,8 +126,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c74f6427d2e35749a8e98412e341887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  moveTo: {x: 0, y: 0, z: 0}
   type: 0
   aliveFor: 1
   damage: 5

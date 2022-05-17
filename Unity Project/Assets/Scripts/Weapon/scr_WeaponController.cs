@@ -49,6 +49,7 @@ public class scr_WeaponController : MonoBehaviour{
     public float aimInTime;
     private Vector3 weaponSwayPosition;
     private Vector3 weaponSwayPositionVelocity;
+    private Vector3 aim;
 
     [Header("Shooting")]
     public float rateOfFire;
@@ -95,11 +96,18 @@ public class scr_WeaponController : MonoBehaviour{
     private void Shoot(){
         //Basically this just makes a sound and then deletes itself.
         //Rigidbody bullet = Instantiate(bulletPrefab, bulletSpawn);
+        Vector3 mousePos = playerController.mouse_position;
+        //mousePos += playerController.camera.transform.forward * 10f; // Make sure to add some "depth" to the screen point
+        aim = playerController.camera.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, playerController.camera.nearClipPlane));
+
         var bulletClone = Instantiate(bulletPrefab, bulletSpawn.transform.position, bulletSpawn.transform.rotation);
         var audioClone = Instantiate(audioPrefab, bulletSpawn.transform.position, bulletSpawn.transform.rotation);
         Rigidbody x = bulletClone.gameObject.GetComponent<Rigidbody>();
         bulletClone.gameObject.GetComponent<projectile>().type = BulletType.Player;
         bulletClone.gameObject.GetComponent<projectile>().damage = settings.damage;
+
+        x.transform.LookAt(aim);
+
         x.velocity = transform.forward * 20f;
     }
 
