@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - PlatformAttach
     - SliderScript
     - Temp
+    - TimerScript
     - projectile
     - scr_PlayerController
     - scr_WeaponController
@@ -48,6 +49,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/End.unity:
     - Class: 1
@@ -164,6 +166,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2116}
     - Class: 114
+      Script: {instanceID: 2314}
+    - Class: 114
       Script: {instanceID: 2714}
     - Class: 114
       Script: {instanceID: 2878}
@@ -195,6 +199,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5636}
     - Class: 114
       Script: {instanceID: 5860}
+    - Class: 114
+      Script: {instanceID: 24418}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -281,6 +287,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2116}
     - Class: 114
+      Script: {instanceID: 2314}
+    - Class: 114
       Script: {instanceID: 2442}
     - Class: 114
       Script: {instanceID: 2714}
@@ -310,6 +318,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5636}
     - Class: 114
       Script: {instanceID: 5860}
+    - Class: 114
+      Script: {instanceID: 24418}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1146,6 +1156,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlatformAttach
+  - hash:
+      serializedVersion: 2
+      Hash: 267fc0ea1e325c617d9cc9e9235b5248
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimerScript
   platform: 24
   scenePathNames:
   - Assets/Scenes/Menu.unity

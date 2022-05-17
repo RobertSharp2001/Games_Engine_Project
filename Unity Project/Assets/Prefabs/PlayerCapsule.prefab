@@ -588,20 +588,20 @@ MonoBehaviour:
     AimSensitivity: 0.8
     ViewXinverted: 0
     ViewYinverted: 0
-    walkForwardSpeed: 6
+    walkForwardSpeed: 10
     walkBackwardSpeed: 4
-    walkStrafeSpeed: 5
+    walkStrafeSpeed: 6
     ToggleSprint: 0
     movementSmoothing: 0.2
-    runForwardSpeed: 12
+    runForwardSpeed: 14
     runBackwardSpeed: 4
     runStrafeSpeed: 8
-    JumpingHeight: 12
+    JumpingHeight: 6
     JumpingFalloff: 1
-    FallSmoothing: 1
+    FallSmoothing: 0.9
     SpeedEffector: 1
     CrouchSpeedEffector: 0.6
-    ProneSpeedEffector: 0.2
+    ProneSpeedEffector: 0.01
     FallSpeedEffector: 1
     AimSpeedEffector: 0.5
     WallRunEffector: 5
@@ -614,7 +614,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 55
-  gravity: 0.07
+  gravity: 0.1
   gravityMin: -3
   fallSpeed: -0.1
   playerGravity: 0
