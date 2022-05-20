@@ -420,7 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c205bfe820a81747848bd24d32d897d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponAnimator: {fileID: 708208526217570922}
+  weaponAnimator: {fileID: 708208528105776191}
   settings:
     swayAmount: 2
     swaySmoothing: 0.1

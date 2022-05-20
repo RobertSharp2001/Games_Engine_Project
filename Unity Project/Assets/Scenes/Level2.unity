@@ -489,7 +489,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2666
+  m_Name: pb_Mesh18914
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13331,6 +13331,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5388302535393310780, guid: 93a159b5b262a3042acfbfd63f8ebccb, type: 3}
     - target: {fileID: 708208527645653863, guid: 966762a7a19861944b28dc237c831dc3, type: 3}
+      propertyPath: weaponAnimator
+      value: 
+      objectReference: {fileID: 1872077652}
+    - target: {fileID: 708208527645653863, guid: 966762a7a19861944b28dc237c831dc3, type: 3}
       propertyPath: settings.damage
       value: 25
       objectReference: {fileID: 0}
@@ -13397,6 +13401,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 708208527504466526, guid: 966762a7a19861944b28dc237c831dc3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 966762a7a19861944b28dc237c831dc3, type: 3}
+--- !u!95 &1872077652 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 708208528105776191, guid: 966762a7a19861944b28dc237c831dc3, type: 3}
+  m_PrefabInstance: {fileID: 1872077651}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1926698794 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3897183503892113074, guid: b2eae2c6d8c273343afa617dc66447f9, type: 3}

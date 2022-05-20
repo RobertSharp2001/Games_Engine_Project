@@ -21512,6 +21512,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!95 &680808438 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 708208528105776191, guid: 966762a7a19861944b28dc237c831dc3, type: 3}
+  m_PrefabInstance: {fileID: 708208527160269002}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &742480044 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3897183503819984858, guid: b2eae2c6d8c273343afa617dc66447f9, type: 3}
@@ -24921,6 +24926,10 @@ PrefabInstance:
       propertyPath: BulletTrail
       value: 
       objectReference: {fileID: 130879335}
+    - target: {fileID: 708208527645653863, guid: 966762a7a19861944b28dc237c831dc3, type: 3}
+      propertyPath: weaponAnimator
+      value: 
+      objectReference: {fileID: 680808438}
     - target: {fileID: 708208527651610794, guid: 966762a7a19861944b28dc237c831dc3, type: 3}
       propertyPath: m_Name
       value: PlayerCapsule
